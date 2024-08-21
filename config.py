@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002246372721))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5111294407))
+OWNER_ID = int(getenv("OWNER_ID", 6977039883))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,18 +32,18 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Anurag8953/Riyuxmusic",
+    "https://github.com/AkhandaNandTripathi/SiriVCBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hyperxfellings")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+JoSPjg4d91QzMWNl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VrindavanNeeko16008")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/musicbotup")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -52,7 +52,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 999999))
 
 
 # Telegram audio and video file size limit (in bytes)
@@ -77,26 +77,26 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = ["https://te.legra.ph/file/5fd13f2cc0d03bce9f7f2.jpg",
-                 "https://te.legra.ph/file/c15d01b3e6b40ea141dc9.jpg",
-                 "https://te.legra.ph/file/58b491b39cee854695fa9.jpg",
-                 "https://telegra.ph/file/17b5a312f5385556787e0.jpg",
-                 "https://telegra.ph/file/5c2c41d52e8819dcbb867.jpg",
-                 "https://telegra.ph/file/56de88c46f3b02a1722d1.jpg"]
+START_IMG_URL = ["https://graph.org/file/ba5e6a352251d9a70f44c.jpg",
+                 "https://graph.org/file/ba5e6a352251d9a70f44c.jpg",
+                 "https://graph.org/file/ba5e6a352251d9a70f44c.jpg",
+                 "https://graph.org/file/ba5e6a352251d9a70f44c.jpg",
+                 "https://graph.org/file/ba5e6a352251d9a70f44c.jpg",
+                 "https://graph.org/file/ba5e6a352251d9a70f44c.jpg"]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/d7ede14f8a4e56fdc424d.jpg"
+    "PING_IMG_URL", "https://graph.org/file/633f5137257f71fb5af2b.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/edd388a42dd2c499fd868.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
-STREAM_IMG_URL = "https://graph.org/file/ff2af8d4d10afa1baf49e.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/e8730fdece86a1166f608.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/0bb6f36796d496b4254ff.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/0bb6f36796d496b4254ff.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/0bb6f36796d496b4254ff.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/ba5e6a352251d9a70f44c.jpg"
+STATS_IMG_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
+STREAM_IMG_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
 
 
 

@@ -1,12 +1,12 @@
 {
-    "name": " ──「 𝙎𝙖𝙣𝙖𝙩𝙖𝙣𝙞 ✘ 𝙈𝙪𝙨𝙞𝙘 」── ",
+    "name": " SIri VC",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/e47d7251464ca14a7f576.jpg",
+    "logo": "https://graph.org/file/a718ab6df037d4aa55be8.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "AnonX",
+    "SiriX",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
