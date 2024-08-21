@@ -77,11 +77,11 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = ["https://graph.org/file/ba5e6a352251d9a70f44c.jpg",
+START_IMG_URL = ["https://graph.org/file/eba6112bee09e6ae43823.jpg",
                  "https://graph.org/file/ba5e6a352251d9a70f44c.jpg",
+                 "https://graph.org/file/eba6112bee09e6ae43823.jpg",
                  "https://graph.org/file/ba5e6a352251d9a70f44c.jpg",
-                 "https://graph.org/file/ba5e6a352251d9a70f44c.jpg",
-                 "https://graph.org/file/ba5e6a352251d9a70f44c.jpg",
+                 "https://graph.org/file/eba6112bee09e6ae43823.jpg",
                  "https://graph.org/file/ba5e6a352251d9a70f44c.jpg"]
     
 PING_IMG_URL = getenv(
@@ -93,7 +93,7 @@ TELEGRAM_AUDIO_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
 STREAM_IMG_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
 SOUNCLOUD_IMG_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
+YOUTUBE_IMG_URL = ""
 SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/a718ab6df037d4aa55be8.jpg"
